@@ -4,8 +4,6 @@
     box-sizing: border-box;
     font-family: 'Lato', sans-serif;
 
-
-
 }
 
 
@@ -139,3 +137,115 @@ font-size: 20px;
 font-weight: 500;
 
 }
+---------------main----------------
+.text-title{  
+color: #272727;
+font-size: 40px;
+font-weight: 800;
+ }
+ .text-title span{
+    color: #E55473;
+ }
+ .main p{
+color: rgba(39, 39, 39, 0.60);
+font-size: 18px;
+margin: 20px;
+
+ }
+ .text-align{
+    width: 700px;
+    text-align: center;
+ }
+
+
+ .main img{
+    width: 300px;
+ }
+ 
+ .main{   
+    background: rgba(229, 84, 115, 0.05);
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+ }
+
+
+ /* ------------Online------------- */
+ .online-title{
+color: #272727;
+text-align: center;
+font-size: 40px;
+font-weight: 800;
+margin:100px 0 30px;
+ }
+ .online-description{
+color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-size: 18px;
+margin: 10px 0 30px;
+ }
+ .show-flower img{
+    width:240px;
+    transition: 0.5s;
+ 
+ }
+ .show-flower{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+ }
+ .show-flower img:hover{
+    border: 2px solid greenyellow;
+    
+ }
+ /* -------------Latest Deals----------- */
+ .deals-heading{
+font-size: 40px;
+color: #272727;
+text-align: center;
+margin-top:200px ;
+font-weight: 800;
+
+ }
+ .deals-price{
+font-size: 18px;
+text-align: center;
+color: rgba(39, 39, 39, 0.60);
+ }
+ .deals{
+    width: 100%;
+    height: 100vh;
+    background-image:url(..image/);
+ }
+ /* -----------footer--------- */
+ footer{
+    background-color: black;
+    padding: 100px;
+ }
+ .footer-heading{
+    color: #fff;
+    font-size: 48px;
+    font-weight: 800;
+    text-align: center;   
+
+ }
+ footer span{
+    color:#E55473;
+ }
+ .footer-description{
+font-size: 18px;
+color: rgba(255, 255, 255, 0.90);
+text-align: center;
+margin-bottom: 10px;
+ }
+ footer small{
+display: block;
+ color: rgba(255, 255, 255, 0.40);
+ margin: auto;
+
+ }
+ 
